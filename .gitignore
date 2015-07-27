@@ -1,0 +1,14 @@
+# IDE
+.idea
+.project
+.settings
+.externalToolBuilders
+.DS_Store
+git_stats
+
+# Packages
+node_modules
+bower_components
+
+# Output
+dist

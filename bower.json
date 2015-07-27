@@ -1,0 +1,28 @@
+{
+  "name": "troopjs-contrib-raygun",
+  "version": "0.0.0",
+  "authors": [
+    "Garry Yao <yaojun85@gmail.com>"
+  ],
+  "description": "Report TroopJS exceptions to Raygun",
+  "main": "service.js",
+  "keywords": [
+    "raygun",
+    "rejection",
+    "promise",
+    "error"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "lodash": "",
+    "when": "",
+    "raygun4js": ""
+  }
+}
