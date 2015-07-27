@@ -47,8 +47,8 @@ define([
 				ignoreAjaxError: false,
 				ignore3rdPartyErrors: true,
 				excludedHostnames: [
-					//'localhost',
-					//'\.dev'
+					'localhost',
+					'\.dev'
 				]
 			}, this.options);
 
