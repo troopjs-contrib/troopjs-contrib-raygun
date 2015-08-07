@@ -35,7 +35,7 @@ define([
 
 			var report = _.bind(me.report, me);
 			// prepare for catching promise rejections
-			if ('error' in console) {
+			if (typeof console !== 'undefined' && 'error' in console) {
 				// intercept and report any console error(potentially unhandled rejections)
 				console.error = _.after(console.error, report);
 			}
