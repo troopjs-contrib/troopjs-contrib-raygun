@@ -42,7 +42,7 @@ define([
 
 			// init options
 			var options = _.extend({
-				allowInsecureSubmissions: false,
+				allowInsecureSubmissions: true,
 				ignoreAjaxAbort: false,
 				ignoreAjaxError: false,
 				ignore3rdPartyErrors: true,
